@@ -4,7 +4,7 @@
   "description": "Check for outdated, incorrect, and unused dependencies.",
   "main": "lib",
   "engines": {
-    "node": ">=0.11.0"
+    "node": ">=6"
   },
   "types": "./index.d.ts",
   "typings": "./index.d.ts",
@@ -87,6 +87,7 @@
     "pkg-dir": "^2.0.0",
     "semver": "^5.4.1",
     "semver-diff": "^2.1.0",
+    "strip-ansi": "^4.0.0",
     "text-table": "^0.2.0",
     "throat": "^4.1.0",
     "update-notifier": "^2.3.0"
